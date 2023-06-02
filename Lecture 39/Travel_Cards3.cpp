@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+#define int long long
 const int N = 0;
 
 int Travel_Cards() {
@@ -68,7 +69,7 @@ int Travel_Cards() {
 
 
 
-int main() {
+int32_t main() {
 	cout << Travel_Cards();
 }
 
