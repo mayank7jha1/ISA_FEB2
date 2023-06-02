@@ -53,7 +53,7 @@ int Travel_Cards() {
 
 	sort(cost.rbegin(), cost.rend());
 
-	for (int i = 0; i < k and i<v.size(); i++) {
+	for (int i = 0; i < k and i<cost.size(); i++) {
 
 		if (cost[i] >= f) {
 			Total_Cost = Total_Cost - cost[i] + f;
